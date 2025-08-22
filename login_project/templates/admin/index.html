@@ -1,0 +1,13 @@
+{% extends "admin/index.html" %}
+
+{% block content %}
+    {{ block.super }}
+
+    <div style="margin-top:20px;">
+        <a href="/students/" class="button"
+           style="background:#4CAF50; color:white; padding:10px 20px;
+                  text-decoration:none; border-radius:5px;">
+            📋 View Students
+        </a>
+    </div>
+{% endblock %}
